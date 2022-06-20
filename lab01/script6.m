@@ -1,0 +1,13 @@
+img = imread("AlfredoBorba_TuscanLandscape.jpg");
+gray_img = rgb2gray(img);
+row = 150;
+f1 = figure;
+subplot(2,1,1);
+hold on;
+imshow(gray_img);
+yline(row, '-r');
+hold off;
+subplot(2,1,2);
+plot(gray_img(row,:), '-r');
+xlabel('column index');
+ylabel('pixel intensity value');
