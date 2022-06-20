@@ -1,3 +1,6 @@
+Markov Random Fields in image segmentation
+
+
 Noisy images are produced by adding 0 mean Gaussian noise. The numbers in
 the image file names after the "trin" prefix denote the noise level in dB. 
 
